@@ -1,0 +1,40 @@
+{
+  "name": "react-loadmask",
+  "description": "loading mask for react",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": "Justin Lu <gdjyluxiaoyong@gmail.com> (http://justin-lu.github.io/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Justin-lu/react-loadmask.git"
+  },
+  "keywords": [
+    "react",
+    "loadmask",
+    "loading-mask"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "prepublish": "npm run compile",
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/Justin-lu/react-loadmask/issues"
+  },
+  "homepage": "https://github.com/Justin-lu/react-loadmask",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-es2015-node4": "*",
+    "babel-preset-react": "^6.5.0",
+    "chai": "*",
+    "coveralls": "*",
+    "isparta": "*",
+    "mocha": "*",
+    "sinon": "*"
+  },
+  "dependencies": {
+    "react": "^0.14.7"
+  }
+}
