@@ -1,0 +1,85 @@
+.loading-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 32px;
+  color: #888;
+}
+
+#circularG{
+  position:relative;
+  width:33px;
+  height:33px;
+  margin: auto;
+}
+
+.circularG{
+  position:absolute;
+  background-color:rgb(136,136,136);
+  width:8px;
+  height:8px;
+  border-radius:5px;
+  animation-name:bounce_circularG;
+  animation-duration:0.338s;
+  animation-iteration-count:infinite;
+  animation-direction:normal;
+}
+
+#circularG_1{
+  left:0;
+  top:13px;
+  animation-delay:0.128s;
+}
+
+#circularG_2{
+  left:3px;
+  top:3px;
+  animation-delay:0.164s;
+}
+
+#circularG_3{
+  top:0;
+  left:13px;
+  animation-delay:0.21s;
+}
+
+#circularG_4{
+  right:3px;
+  top:3px;
+  animation-delay:0.256s;
+}
+
+#circularG_5{
+  right:0;
+  top:13px;
+  animation-delay:0.292s;
+}
+
+#circularG_6{
+  right:3px;
+  bottom:3px;
+  animation-delay:0.338s;
+}
+
+#circularG_7{
+  left:13px;
+  bottom:0;
+  animation-delay:0.374s;
+}
+
+#circularG_8{
+  left:3px;
+  bottom:3px;
+  animation-delay:0.42s;
+}
+
+@keyframes bounce_circularG{
+  0%{
+    transform:scale(1);
+  }
+
+  100%{
+    transform:scale(.3);
+  }
+}
