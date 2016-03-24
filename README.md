@@ -218,6 +218,35 @@ Add this js to you porject
 import LoadMask from 'react-loadmask';
 ```
 
+## Using in redux
+
+You can define a reduer like this
+
+```javascript
+export function todos(state , action) {
+  switch (action.type) {
+  case REQUEST_TODO:
+    return Object.assign({}, state, { isLoading: true });
+  case RECEIVE_ACTIVATED_DEVICES:
+    return Object.assign({}, state, { isLoading: false });
+  default:
+    return state;
+  }
+}
+```
+
+Add `LoadMask` to your compoments as a wrapper
+
+```html
+<LoadMask dataLength={todos.length} isLoading={todos.isLoading}>
+  <div>
+    <p>I'm todo list</p>
+  </div>
+</LoadMask>
+```
+
+Now, you compoments will auto should loading mask when you are make an ajax request
+
 ## License
 
 MIT
