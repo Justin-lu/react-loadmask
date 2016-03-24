@@ -1,7 +1,7 @@
 {
   "name": "react-loadmask",
   "description": "loading mask for react",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "author": "Justin Lu <gdjyluxiaoyong@gmail.com> (http://justin-lu.github.io/)",
   "repository": {

@@ -1,4 +1,3 @@
-import './style.css';
 import React from 'react';
 
 class LoadMask extends React.Component {
