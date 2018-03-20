@@ -1,5 +1,7 @@
 # react-loadmask
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Justin-lu/react-loadmask.svg)](https://greenkeeper.io/)
+
 ![Build Status](https://img.shields.io/travis/Justin-lu/react-loadmask.svg)
 ![Coverage](https://img.shields.io/coveralls/Justin-lu/react-loadmask.svg)
 ![Downloads](https://img.shields.io/npm/dm/react-loadmask.svg)
