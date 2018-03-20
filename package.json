@@ -35,6 +35,6 @@
     "sinon": "*"
   },
   "dependencies": {
-    "react": "^0.14.7"
+    "react": "^16.2.0"
   }
 }
